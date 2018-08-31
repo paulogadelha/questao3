@@ -26,6 +26,8 @@ int main(){
     return 0;
 }
 
+// Pior caso O(n)
+
 People* findByID(People* p,int id,int size){
     int i;
     for(i = 0; i < size;i++){
