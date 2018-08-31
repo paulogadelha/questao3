@@ -20,6 +20,9 @@ int main(){
    printf("\n");   
 }
 
+// Medio caso O(n log n)
+// Pior caso O(n^2) quando o vetor já está ordenado
+
 void Quick(int vetor[10], int inicio, int fim){
    
    int pivo, aux, i, j, meio;
