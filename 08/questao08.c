@@ -37,6 +37,8 @@ int main(){
     return 0;
 }
 
+// Select sort e bubble sort O(n^2)
+
 void selectionSort(People* vetor, int size){
     int i,j;
     int less;
