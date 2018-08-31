@@ -29,7 +29,7 @@ int main(){
     
     return 0;
 }
-
+// O(log n)
 People* findByIDBinary(People* p,int id,int size){
     int encontrado = 0;
     int inicio = 0;
