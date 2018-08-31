@@ -34,6 +34,9 @@ int main(){
     return 0;
 }
 
+// O(n) quando a lista esta ordenada
+// O(n^2) quando esta desordenada
+
 void insertSorted(People* vetor,int size){
     int i,j;
     People aux;
