@@ -34,6 +34,9 @@ int stringValue(char* str){
     return valor;
 }
 
+// Melhor caso O(1)
+// Pior caso O(n)
+
 void deleteHashTable(HashTable* table){
     if(table != NULL){
         int i;
