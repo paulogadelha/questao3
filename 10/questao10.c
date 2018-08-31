@@ -36,6 +36,8 @@ int main(){
     return 0;
 }
 
+// Pior caso O(n log n) e heap tb
+
 void shellSort(People* p, int num){
     int i, j, k;
     People tmp;
